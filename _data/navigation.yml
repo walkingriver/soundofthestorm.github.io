@@ -1,0 +1,10 @@
+# Site navigation links
+
+- title: Events
+  url: /events/
+
+- title: Gallery
+  url: /gallery/
+
+- title: Contact
+  url: /contact/

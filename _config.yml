@@ -1,1 +1,82 @@
-theme: jekyll-theme-leap-day
+# Site
+title:              SoundOfTheStorm.com
+bio:                'Sound of the Storm - Celebration High School'
+description:        'This is the website for the CHS Music Program'
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/storm-logo.png'
+background:         'assets/img/72084806_1230875947114871_3677706527638028288_o.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                https://soundofthestorm.com
+
+# Jekyll
+excerpt_separator:  <!--more-->
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Comments
+# disqus_shortname:   walkingriver
+
+# Social
+# if you don't have any of social below, comment the line.
+google:
+  #plus:            #username
+  # analytics:        UA-149361442-1
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+#email:
+# twitter:            walkingriver
+# facebook:           walkingriverservices
+# github-url:         walkingriver
+# gumroad_url:        'https://gumroad.com/walkingriver'
+#stackoverflow:      411989/mikec   #from a "https://stackoverflow.com/users/123456/username" link
+# linkedin:          michaelcallaghan2
+#xing:              username
+#instagram:          walkingriver
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+# youtube:            mdcsoft
+#youtube-channel:    https://www.youtube.com/user/mdcsoft
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+# amazon:             mcallaghan  # Amazon Author Page
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+
+# Coil
+# coil:         $pay.stronghold.co/1a1430981e8e48d40b5887601117e6e46cb
